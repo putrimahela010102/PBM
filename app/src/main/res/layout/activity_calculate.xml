@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculateActivity"
+    android:background="@mipmap/secondbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/txApp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="Masukan Total Harta Warisan"
+                android:textColor="#FFFFFF"
+                android:textSize="27sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txApp3"
+                android:layout_below="@id/txApp2"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="(Total harta warisan adalah keseluruhan harta bersih setelah dikurangi hutang, pengurusan jenazah, dan wasiat dari pewaris)"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_marginTop="250dp"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="Lanjut" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
