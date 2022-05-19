@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical"
+    tools:context=".CalculateActivity7">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/txApp17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="CALCULATE"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txApp18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txApp17"
+            android:layout_marginTop="90dp"
+            android:text="Tanggungan Pewaris"
+            android:textColor="#1297E2"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txApp19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Anak Laki-laki dari Saiudara/i Sekandung"
+        android:textSize="18dp"
+        android:textColor="#1297E2"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/et9"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txApp20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Anak Laki-laki dari Saudara/i Sebapak"
+        android:textSize="18dp"
+        android:textColor="#1297E2"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/et10"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txApp21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Paman Kandung"
+        android:textSize="18dp"
+        android:textColor="#1297E2"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/et11"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txApp22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Paman Sebapak"
+        android:textSize="18dp"
+        android:textColor="#1297E2"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/et12"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txApp23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Anak Laki-laki dari Paman Sekandung"
+        android:textSize="18dp"
+        android:textColor="#1297E2"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/et13"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txApp24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Anak Laki-laki dari Paman Sebapak"
+        android:textSize="18dp"
+        android:textColor="#1297E2"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/et14"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Lanjut" />
+
+</LinearLayout>

@@ -10,6 +10,7 @@ import android.widget.Button;
 public class CalculateActivity4 extends AppCompatActivity {
 
     Button btn4;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -6,28 +6,25 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
 
-public class CalculateActivity extends AppCompatActivity {
+public class CalculateActivity6 extends AppCompatActivity {
 
-    Button btn;
-    EditText et;
+    Button btn6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculate);
+        setContentView(R.layout.activity_calculate6);
 
-        btn = (Button) findViewById(R.id.btn);
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn6 = (Button) findViewById(R.id.btn6);
+        btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(CalculateActivity.this, CalculateActivity2.class);
+                Intent i = new Intent (CalculateActivity6.this, CalculateActivity7.class);
                 startActivity(i);
                 finish();
             }
         });
-    }
 
+    }
 }

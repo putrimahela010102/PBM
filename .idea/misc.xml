@@ -3,14 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_calculate.xml" value="0.264" />
+        <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_calculate.xml" value="0.152" />
         <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_calculate2.xml" value="0.264" />
         <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_calculate3.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_calculate4.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_calculate5.xml" value="0.22509057971014493" />
+        <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_calculate6.xml" value="0.25" />
+        <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_calculate7.xml" value="0.25" />
+        <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_hasil_perhitungan.xml" value="0.264" />
         <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_profil.xml" value="0.1" />
         <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Users/Hoscom/Project/app/src/main/res/layout/layout.xml" value="0.25" />
       </map>
     </option>
   </component>
